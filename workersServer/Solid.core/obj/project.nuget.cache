@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "j3zCsQVpEBT53XO6XeC90KtKRV0I7wL/ZfdUqS00CajZhTUxNX2VeVTucmW24KvUKv9vbpyxiaVJh8FYTEq43w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\Solid.core\\Solid.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\talya\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\talya\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\talya\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\talya\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\talya\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
