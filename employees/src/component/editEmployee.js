@@ -18,32 +18,30 @@ import EventIcon from '@mui/icons-material/Event';
 import { FormControl } from '@mui/material';
 
 import './style.css';
-
+const schema = yup.object({
+    firstName: yup.string().required(),
+    lastName: yup.string().required(),
+    tz: yup.string().required().matches(/^\d{9}$/),
+    // position: yup.string().required(),
+    gender: yup.number().required(),
+    dateBorn: yup.date().required(),
+    startDate: yup.date().required(),
+    // dateEntry: yup.date().required(),
+    // management: yup.number().oneOf([0, 1]).required(),
+});
 const EditEmployee = ({ item }) => {
-    const location = useLocation();
     const naving = useNavigate();
-    const [positions, setPositions] = useState([]);
-    const [employees, setEmployees] = useState([]);
-    const [isAddingRole, setIsAddingRole] = useState(false);
     const [allRoles, setAllRoles] = useState([])
+    const [rolesNotInEmployee, setRolesOnEmployee] = useState([])
 
 
-    const schema = yup.object({
-        firstName: yup.string().required(),
-        lastName: yup.string().required(),
-        tz: yup.string().required().matches(/^\d{9}$/),
-        // position: yup.string().required(),
-        gender: yup.number().required(),
-        dateBorn: yup.date().required(),
-        startDate: yup.date().required(),
-        // dateEntry: yup.date().required(),
-        // management: yup.number().oneOf([0, 1]).required(),
-    });
 
-    const { register, handleSubmit, setValue, control, formState: { errors } } = useForm({
+    const { register, handleSubmit, watch, control, getValues, formState: { errors } } = useForm({
         resolver: yupResolver(schema),
         defaultValues: item || {}
     });
+
+    const watcRole = watch(['employeePosition']);
 
     const { fields, append, remove } = useFieldArray({
         control: control,
@@ -52,36 +50,24 @@ const EditEmployee = ({ item }) => {
 
     useEffect(() => {
         position1();
-
-
     }, [item]);
 
-    // useEffect(() => {
-    //     item?.employeePosition?.map((position) => {
-    //         filterPosition(position.positionId)
-    //     })
-    // }, [isAddingRole])
-    const filterPosition = (id) => {
-        const roles = allRoles.filter(role => role.id !== id)
-        setAllRoles(roles)
-    }
+
+    useEffect(() => {
+        const data = watcRole[0];
+        if (JSON.stringify(data) != JSON.stringify(rolesNotInEmployee)) {
+            setRolesOnEmployee(data)
+        }
+    }, [watcRole])
 
     const position1 = () => {
         axios.get("https://localhost:7230/api/Position")
             .then((res) => {
-                setPositions(res.data);
                 setAllRoles(res.data)
-                console.log("p", res.data);
             })
             .catch((err) => console.error(err))
             .finally();
-        axios.get("https://localhost:7230/api/Employee")
-            .then((res) => {
-                setEmployees(res.data);
-                console.log("e", res.data);
-            })
-            .catch((err) => console.error(err))
-            .finally();
+
     }
 
     const parseDate = (date) => {
@@ -114,6 +100,8 @@ const EditEmployee = ({ item }) => {
                 .then((response) => {
                     console.log(response);
                     naving("/employees")
+                    window.location.reload();
+
                 })
                 .catch((error) => {
                     console.error(error);
@@ -176,13 +164,7 @@ const EditEmployee = ({ item }) => {
 
             <Button
                 type="button"
-                onClick={() => {
-                    setIsAddingRole(!isAddingRole)
-                    append({});
-                    item?.employeePosition?.forEach((position) => {
-                        filterPosition(position.positionId);  });
-                }}
-            >
+                onClick={() => append({})} >
                 Add Role
             </Button>
             {fields?.map((field, index) => (
@@ -192,87 +174,69 @@ const EditEmployee = ({ item }) => {
                         <Grid item xs={12}>
                             <FormControl fullWidth>
                                 <InputLabel id={`roleNameLabel_${index}`}>Role Name</InputLabel>
-
-                                {/* <Select
+                                {/* render={({ field }) => ( */}
+                                <Select {...field}
                                     labelId={`roleNameLabel_${index}`}
                                     id={`roleName_${index}`}
                                     error={!!errors?.employeePosition?.[index]?.positionId}
                                     defaultValue={item?.employeePosition?.[index]?.positionId}
-                                    {...register(`employeePosition.${index}.positionId`)}
-                                >
-                                    
-                                    {positions.map(role => (
-                                        <MenuItem key={role.positionId} value={role.id}>
-                                            {role.name}                          </MenuItem>
-                                    ))}
-                                </Select> */}
+                                    {...register(`employeePosition.${index}.positionId`)}>
+                                    {allRoles
+                                        // .filter(role => !fields.some(field => field.positionId === role.id))
+                                        .map(r => (
+                                            <MenuItem key={r.name} value={r.id} disabled={rolesNotInEmployee.some(x => x['positionId'] == r.id)}>{r.name}</MenuItem>
 
-                                <Select
-                                    labelId={`roleNameLabel_${index}`}
-                                    id={`roleName_${index}`}
-                                    error={!!errors?.employeePosition?.[index]?.positionId}
-                                    defaultValue={item?.employeePosition?.[index]?.positionId}
-                                    {...register(`employeePosition.${index}.positionId`)}
-                                >
-                                    {isAddingRole ? (
-                                        allRoles?.map((role) => (
-                                                <MenuItem key={role.id} value={role.id}>
-                                                    {role.name}
-                                                </MenuItem>
-                                            ))
-                                    ) : (
-                                        positions
-                                            .filter(role => !fields.some(field => field.positionId === role.id))
-                                            .map(role => (
-                                                <MenuItem key={role.positionId} value={role.id}>
-                                                    {role.name}
-                                                </MenuItem>
-                                            ))
-                                    )}
+                                            // <MenuItem key={role.positionId} value={role.id}>
+                                            //     {role.name}
+                                            // </MenuItem>
+                                        ))
+                                    }
                                 </Select>
+                                {/* )}  */}
 
 
-                                <FormHelperText>{errors?.employeePosition?.[index]?.positionId?.message}</FormHelperText>
-                            </FormControl>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <FormControlLabel
-                                control={
-                                    <Checkbox
-                                        id={`isManagement_${index}`}
-                                        {...register(`e.${index}.management`)}
-                                        defaultChecked={item?.employeePosition?.[index]?.management}
-                                    />
-                                }
-                                label="Is Manager"
-                            />
-                        </Grid>
-                        <Grid item xs={12}>
-                            <TextField
-                                error={!!errors?.employeePosition?.[index]?.dateEntry}
-                                id={`startDate_${index}`}
-                                label="Start Date" type='datetime'
-                                helperText={errors?.employeePosition?.[index]?.dateEntry?.message}
-                                defaultValue={item?.employeePosition?.[index]?.dateEntry}
-                                {...register(`employeePosition.${index}.dateEntry`)}
-                                fullWidth
-                                InputProps={{
-                                    startAdornment: (
-                                        <EventIcon color="action" />
-                                    )
-                                }}
-                            />
-                        </Grid>
-                        <Grid item xs={12}>
-                            <Button type="button" onClick={() => remove(index)}>
-                                Remove
-                            </Button>
-                        </Grid>
+                                    < FormHelperText > { errors?.employeePosition?.[index]?.positionId?.message}</FormHelperText>
+                        </FormControl>
                     </Grid>
+                    <Grid item xs={12}>
+                        <FormControlLabel
+                            control={
+                                <Checkbox
+                                    id={`isManagement_${index}`}
+                                    {...register(`employeePosition.${index}.management`)}
+                                    defaultChecked={item?.employeePosition?.[index]?.management}
+                                />
+                            }
+                            label="Is Manager"
+                        />
+                    </Grid>
+                    <Grid item xs={12}>
+                        <TextField
+                            error={!!errors?.employeePosition?.[index]?.dateEntry}
+                            id={`startDate_${index}`}
+                            label="Start Date" type='datetime'
+                            helperText={errors?.employeePosition?.[index]?.dateEntry?.message}
+                            defaultValue={item?.employeePosition?.[index]?.dateEntry}
+                            {...register(`employeePosition.${index}.dateEntry`)}
+                            fullWidth
+                            InputProps={{
+                                startAdornment: (
+                                    <EventIcon color="action" />
+                                )
+                            }}
+                        />
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Button type="button" onClick={() => remove(index)}>
+                            Remove
+                        </Button>
+                    </Grid>
+                </Grid>
                 </Paper>
-            ))}
+    ))
+}
 
-            <Button type="submit" >Submit</Button>
+<Button type="submit" >Submit</Button>
         </form >
     );
 

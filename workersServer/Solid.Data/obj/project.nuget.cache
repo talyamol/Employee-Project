@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HNJSaD0yyvRxf7PmTxew2HdA+zlSzlGdezUMMIiqE6q61OWRFOP0w47AqsTy0c2OkxekxG9GAHArQySI4pUcOA==",
+  "dgSpecHash": "YRaINS4+oKoMlitJCCt7Y/nua/P9DH9mzuQDDfvYqNxzuJ4Wb2MiGYc68QCABGVhShoneDc5cbRZiwnyj1sgAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\Solid.Data\\Solid.Data.csproj",
+  "projectFilePath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\Solid.Data\\Solid.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\talya\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\talya\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

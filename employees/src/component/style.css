@@ -49,6 +49,10 @@
     margin-bottom: 20px;
   }
   
+  .thead{
+    color: black;
+    
+  }
   
 .noBorder {
     border: none;
@@ -94,3 +98,4 @@
     max-width: 100vw;   
 
 }
+

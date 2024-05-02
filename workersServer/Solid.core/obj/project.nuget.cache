@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j3zCsQVpEBT53XO6XeC90KtKRV0I7wL/ZfdUqS00CajZhTUxNX2VeVTucmW24KvUKv9vbpyxiaVJh8FYTEq43w==",
+  "dgSpecHash": "rrOktW17JkDriKgGeVsGul4J+1KzEA5JWqtfUn2AW95nVimbw/2MSo0Lt9IU7cx3TWJ90Yhg3OjoS2tuWlbQOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\Solid.core\\Solid.Core.csproj",
+  "projectFilePath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\Solid.core\\Solid.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\talya\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\talya\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

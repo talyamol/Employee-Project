@@ -60,12 +60,12 @@ const AddPosition = () => {
                 <TextField type="text" {...register("name")} label="Position" />
                 {errors.name && <p>{errors.name.message}</p>}
 
-                <label>Management</label>
+                {/* <label>Management</label>
                 <Select {...register("management")}>
                     <MenuItem value="true">True</MenuItem>
                     <MenuItem value="false">False</MenuItem>
-                </Select>
-                {errors.management && <p>{errors.management.message}</p>}
+                </Select> */}
+                {/* {errors.management && <p>{errors.management.message}</p>} */}
 
                 <Button type="submit">Submit</Button>
             </form>

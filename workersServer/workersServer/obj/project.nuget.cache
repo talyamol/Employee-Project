@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PtgCqUinjIboeshrs0ggkpFjcNKlM3cKKXKoG0jG2jduSo8qFCuEjwa47FfDMXnY4kIlc+8g2GUHYkDoG5UGGQ==",
+  "dgSpecHash": "rPJP9jvcyaYQ00GSc1vV/GLw2wOr04BGn+U74OD7ddr5Shwqf1OdAC4N4m/yIaKMBIyW1ZCBqwFyvy0RDYv/JQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\workersServer\\WorkersServer.csproj",
+  "projectFilePath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\workersServer\\WorkersServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\talya\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\talya\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

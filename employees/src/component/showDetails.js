@@ -9,7 +9,6 @@ import axios from 'axios';
 const ShowDetails = ({item}) => {
 
     const [employee, setEmployee] = useState(null);
-    const location = useLocation();
     const [positions, setPosition] = useState([]);
     const naving = useNavigate();
    

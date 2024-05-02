@@ -4299,11 +4299,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\workersServer\\WorkersServer.csproj",
+      "projectUniqueName": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\workersServer\\WorkersServer.csproj",
       "projectName": "WorkersServer",
-      "projectPath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\workersServer\\WorkersServer.csproj",
+      "projectPath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\workersServer\\WorkersServer.csproj",
       "packagesPath": "C:\\Users\\talya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\workersServer\\obj\\",
+      "outputPath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\workersServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4324,14 +4324,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\Solid.core\\Solid.Core.csproj": {
-              "projectPath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\Solid.core\\Solid.Core.csproj"
+            "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\Solid.core\\Solid.Core.csproj": {
+              "projectPath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\Solid.core\\Solid.Core.csproj"
             },
-            "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\Solid.Data\\Solid.Data.csproj": {
-              "projectPath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\Solid.Data\\Solid.Data.csproj"
+            "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\Solid.Data\\Solid.Data.csproj": {
+              "projectPath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\Solid.Data\\Solid.Data.csproj"
             },
-            "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\Solid.Service\\Solid.Service.csproj": {
-              "projectPath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\workersServer\\Solid.Service\\Solid.Service.csproj"
+            "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\Solid.Service\\Solid.Service.csproj": {
+              "projectPath": "C:\\Users\\talya\\Documents\\תכנות\\תשפד\\פרקטיקום\\project\\workersServer\\Solid.Service\\Solid.Service.csproj"
             }
           }
         }

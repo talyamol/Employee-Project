@@ -140,16 +140,14 @@ const Employees = () => {
             <div className="container">
                 <Paper
                     component="form"
-                    className="searchContainer"
+                    className="searchContainer" 
                 >
                     <InputBase
-                        placeholder="Search..."
+                        placeholder="Search..." 
                         value={searchTerm}
                         onChange={handleSearch}
-                    />
-                    <IconButton type="submit" aria-label="search">
-                        <SearchIcon />
-                    </IconButton>
+                    /> <SearchIcon />
+                 
                     <Divider orientation="vertical" />
                 </Paper>
 
@@ -157,7 +155,7 @@ const Employees = () => {
 
                 <TableContainer component={Paper} className="tableContainer">
                     <Table>
-                        <TableHead>
+                        <TableHead className="thead">
                             <TableRow>
                                 <TableCell className="noBorder">First Name</TableCell>
                                 <TableCell className="noBorder">Last Name</TableCell>
@@ -169,7 +167,7 @@ const Employees = () => {
                             </TableRow>
                         </TableHead>
                         <TableBody>
-                            {filteredEmployees.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map(item => {
+                            {filteredEmployees.map(item => {
                                 if (item?.status === true) {
                                     return (
                                         <TableRow className="tableRow" key={item?.id}>

@@ -32,21 +32,21 @@ namespace Solid.Service
 
         public async Task<Employee> AddEmployeeAsync(Employee employee)
         {
-            //if (employee.StartDate > employee.DateBorn)
-            //{
-            //    throw new ArgumentException("Date of start work cannot be before date of birth.");
-            //}
+            if (employee.StartDate < employee.DateBorn)
+            {
+                throw new ArgumentException("Date of start work cannot be before date of birth.");
+            }
 
-            //if (employee.EmployeePosition != null)
-            //{
-            //    foreach (var p in employee.EmployeePosition)
-            //    {
-            //        if (p.DateEntry > employee.StartDate)
-            //        {
-            //            throw new ArgumentException("Date of position entry cannot be before date of started work.");
-            //        }
-            //    }
-            //}
+            if (employee.EmployeePosition != null)
+            {
+                foreach (var p in employee.EmployeePosition)
+                {
+                    if (p.DateEntry < employee.StartDate)
+                    {
+                        throw new ArgumentException("Date of position entry cannot be before date of started work.");
+                    }
+                }
+            }
             if (employee.Tz.Length != 9)
                 throw new ArgumentException("Employee ID must contain exactly 9 digits.");
             //var e= GetEmployeeByTzAsync(employee.Tz);

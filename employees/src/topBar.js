@@ -11,7 +11,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 
-const navItems = ['Employees', 'AddEmployee', 'Login', 'AddPosition'];
+const navItems = ['Employees', 'AddEmployee', 'AddPosition'];
 
 const TopBar = () => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
