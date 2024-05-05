@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C347F885-A017-4240-87A8-4838452BF8D6}|workersServer\\WorkersServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\workersserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C347F885-A017-4240-87A8-4838452BF8D6}|workersServer\\WorkersServer.csproj|solutionrelative:workersserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{878E182D-BD7C-449D-BF1C-5961C3EEE554}|Solid.Service\\Solid.Service.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\solid.service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{878E182D-BD7C-449D-BF1C-5961C3EEE554}|Solid.Service\\Solid.Service.csproj|solutionrelative:solid.service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|solutionrelative:solid.core\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE570EBF-154A-48A7-A6C1-8704D8713197}|Solid.Data\\Solid.Data.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\solid.data\\repositories\\employeepositionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE570EBF-154A-48A7-A6C1-8704D8713197}|Solid.Data\\Solid.Data.csproj|solutionrelative:solid.data\\repositories\\employeepositionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C347F885-A017-4240-87A8-4838452BF8D6}|workersServer\\WorkersServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\workersserver\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C347F885-A017-4240-87A8-4838452BF8D6}|workersServer\\WorkersServer.csproj|solutionrelative:workersserver\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|solutionrelative:solid.core\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C347F885-A017-4240-87A8-4838452BF8D6}|workersServer\\WorkersServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\workersserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C347F885-A017-4240-87A8-4838452BF8D6}|workersServer\\WorkersServer.csproj|solutionrelative:workersserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\solid.core\\entities\\employeeposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|solutionrelative:solid.core\\entities\\employeeposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C347F885-A017-4240-87A8-4838452BF8D6}|workersServer\\WorkersServer.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\workersserver\\controllers\\employeepositioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C347F885-A017-4240-87A8-4838452BF8D6}|workersServer\\WorkersServer.csproj|solutionrelative:workersserver\\controllers\\employeepositioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\solid.core\\dtos\\employeepositiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\solid.core\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|solutionrelative:solid.core\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{878E182D-BD7C-449D-BF1C-5961C3EEE554}|Solid.Service\\Solid.Service.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\solid.service\\employeepositionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{878E182D-BD7C-449D-BF1C-5961C3EEE554}|Solid.Service\\Solid.Service.csproj|solutionrelative:solid.service\\employeepositionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\solid.core\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,14 +83,6 @@
       "RelativeMoniker": "D:0:0:{C347F885-A017-4240-87A8-4838452BF8D6}|workersServer\\WorkersServer.csproj|solutionrelative:workersserver\\models\\positionpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\solid.core\\repositories\\iemployeepositionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|solutionrelative:solid.core\\repositories\\iemployeepositionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\solid.core\\services\\iemployeepositionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A09109C-3F37-477F-9CBF-635D8C946A49}|Solid.core\\Solid.Core.csproj|solutionrelative:solid.core\\services\\iemployeepositionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{878E182D-BD7C-449D-BF1C-5961C3EEE554}|Solid.Service\\Solid.Service.csproj|c:\\users\\talya\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersserver\\solid.service\\positionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{878E182D-BD7C-449D-BF1C-5961C3EEE554}|Solid.Service\\Solid.Service.csproj|solutionrelative:solid.service\\positionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -122,20 +102,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\workersServer\\Program.cs",
               "RelativeDocumentMoniker": "workersServer\\Program.cs",
               "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\workersServer\\Program.cs",
               "RelativeToolTip": "workersServer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T23:54:46.483Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -144,19 +125,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Data\\Repositories\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Solid.Data\\Repositories\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Data\\Repositories\\EmployeeRepository.cs",
-              "RelativeToolTip": "Solid.Data\\Repositories\\EmployeeRepository.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAmwEcAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T21:22:10.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Service\\EmployeeService.cs",
               "RelativeDocumentMoniker": "Solid.Service\\EmployeeService.cs",
@@ -169,7 +137,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Solid.Data\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Solid.Data\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAmwEcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T21:22:10.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EmployeeDTO.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\DTOs\\EmployeeDTO.cs",
               "RelativeDocumentMoniker": "Solid.core\\DTOs\\EmployeeDTO.cs",
@@ -181,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "Solid.core\\Entities\\Employee.cs",
@@ -193,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EmployeePostModel.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\workersServer\\Models\\EmployeePostModel.cs",
               "RelativeDocumentMoniker": "workersServer\\Models\\EmployeePostModel.cs",
@@ -205,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Solid.Data\\DataContext.cs",
@@ -241,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "EmployeePosition.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Entities\\EmployeePosition.cs",
               "RelativeDocumentMoniker": "Solid.core\\Entities\\EmployeePosition.cs",
@@ -253,31 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeePositionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Data\\Repositories\\EmployeePositionRepository.cs",
-              "RelativeDocumentMoniker": "Solid.Data\\Repositories\\EmployeePositionRepository.cs",
-              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Data\\Repositories\\EmployeePositionRepository.cs",
-              "RelativeToolTip": "Solid.Data\\Repositories\\EmployeePositionRepository.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAMAswBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T20:45:50.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmployeePositionController.cs",
-              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\workersServer\\Controllers\\EmployeePositionController.cs",
-              "RelativeDocumentMoniker": "workersServer\\Controllers\\EmployeePositionController.cs",
-              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\workersServer\\Controllers\\EmployeePositionController.cs",
-              "RelativeToolTip": "workersServer\\Controllers\\EmployeePositionController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAnwCgAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T21:03:59.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "EmployeePositionDTO.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\DTOs\\EmployeePositionDTO.cs",
               "RelativeDocumentMoniker": "Solid.core\\DTOs\\EmployeePositionDTO.cs",
@@ -289,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "EmployeePositionPostModel.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\workersServer\\Models\\EmployeePositionPostModel.cs",
               "RelativeDocumentMoniker": "workersServer\\Models\\EmployeePositionPostModel.cs",
@@ -301,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "Position.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Entities\\Position.cs",
               "RelativeDocumentMoniker": "Solid.core\\Entities\\Position.cs",
@@ -313,19 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmployeePositionService.cs",
-              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Service\\EmployeePositionService.cs",
-              "RelativeDocumentMoniker": "Solid.Service\\EmployeePositionService.cs",
-              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Service\\EmployeePositionService.cs",
-              "RelativeToolTip": "Solid.Service\\EmployeePositionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T15:41:42.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Services\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "Solid.core\\Services\\IEmployeeService.cs",
@@ -337,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "PostModelMapping.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\workersServer\\Mapping\\PostModelMapping.cs",
               "RelativeDocumentMoniker": "workersServer\\Mapping\\PostModelMapping.cs",
@@ -349,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 15,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Solid.core\\Mapping\\MappingProfile.cs",
@@ -361,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 16,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\workersServer\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "workersServer\\Models\\LoginModel.cs",
@@ -373,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 17,
               "Title": "PositionRepository.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Data\\Repositories\\PositionRepository.cs",
               "RelativeDocumentMoniker": "Solid.Data\\Repositories\\PositionRepository.cs",
@@ -385,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "PositionController.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\workersServer\\Controllers\\PositionController.cs",
               "RelativeDocumentMoniker": "workersServer\\Controllers\\PositionController.cs",
@@ -397,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "PositionPostModel.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\workersServer\\Models\\PositionPostModel.cs",
               "RelativeDocumentMoniker": "workersServer\\Models\\PositionPostModel.cs",
@@ -409,31 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IEmployeePositionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Repositories\\IEmployeePositionRepository.cs",
-              "RelativeDocumentMoniker": "Solid.core\\Repositories\\IEmployeePositionRepository.cs",
-              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Repositories\\IEmployeePositionRepository.cs",
-              "RelativeToolTip": "Solid.core\\Repositories\\IEmployeePositionRepository.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAgwAsAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T17:08:02.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IEmployeePositionService.cs",
-              "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Services\\IEmployeePositionService.cs",
-              "RelativeDocumentMoniker": "Solid.core\\Services\\IEmployeePositionService.cs",
-              "ToolTip": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Services\\IEmployeePositionService.cs",
-              "RelativeToolTip": "Solid.core\\Services\\IEmployeePositionService.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAgwBAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T17:11:04.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 20,
               "Title": "PositionService.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.Service\\PositionService.cs",
               "RelativeDocumentMoniker": "Solid.Service\\PositionService.cs",
@@ -445,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 21,
               "Title": "IPositionService.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Services\\IPositionService.cs",
               "RelativeDocumentMoniker": "Solid.core\\Services\\IPositionService.cs",
@@ -457,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 22,
               "Title": "IPositionRepository.cs",
               "DocumentMoniker": "C:\\Users\\talya\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05EA\u05E9\u05E4\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05DD\\project\\workersServer\\Solid.core\\Repositories\\IPositionRepository.cs",
               "RelativeDocumentMoniker": "Solid.core\\Repositories\\IPositionRepository.cs",

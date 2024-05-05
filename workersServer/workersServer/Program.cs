@@ -46,10 +46,8 @@ builder.Services.AddSwaggerGen(options =>
 
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IPositionRepository, PositionRepository>();
-builder.Services.AddScoped<IEmployeePositionRepository, EmployeePositionRepository>();
 builder.Services.AddScoped<IEmployeeService,EmployeeService>();
 builder.Services.AddScoped<IPositionService, PositionService>();
-builder.Services.AddScoped<IEmployeePositionService, EmployeePositionService>();
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddAutoMapper(typeof(PostModelMapping));
